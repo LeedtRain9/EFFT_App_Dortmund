@@ -26,7 +26,8 @@ const questions = {
         type: "textWithImage",
         question: "Welche Aussagen sind richtig ?",
         image: ["Bilder Querbeet/bild5.jpg"],
-        answers: ["Eine Spannung liegt an einem Widerstand an", "Ein Strom liegt an einem Widerstand an", "Ein Strom ließt an einem Widerstand an", "Ein Strom fließt durch einen Widerstand durch"], correct: [0, 3]
+        answers: ["Eine Spannung liegt an einem Widerstand an", "Ein Strom liegt an einem Widerstand an", "Ein Strom ließt an einem Widerstand an", "Ein Strom fließt durch einen Widerstand durch"], 
+	correct: [0, 3]
     },
     {
         type: "textWithImage",
@@ -171,7 +172,7 @@ const questions = {
         image: "Bilder Querbeet/bild5.jpg",        
         answers: ["5", "0,5", "0,05", "50"],
         correct: [1]
-    }
+    },
 ],
 
 "Elektrotechnik 3": [
@@ -252,7 +253,7 @@ const questions = {
   	"image": "Bilder Elektrotechnik 3/bild7.jpg",
   	"answers": ["0,1 kWh", "1 kWh", "10 kWh", "100 kWh"],
  	"correct": [1]
-}
+	},
 ],
 
 
@@ -307,7 +308,7 @@ const questions = {
         image: "Bilder Querbeet/bild4.jpg",
         answers: ["Durch Addition der Kehrwerte der Teilwiderstände", "Durch Multiplikation der Teilwiderstände", "Durch Addition der Teilwiderstände"],
         correct: [2]
-    }
+    },
 ],
 
 
@@ -413,7 +414,8 @@ const questions = {
         "question": "Was passiert mit dem Leiterwiderstand, wenn die Umgebungstemperatur steigt ?",
         "image": "Bilder Elektrotechnik 5/bild2.jpg",
         "answers": ["Der Leiterwiderstand wird größer", "Die Umgebungstemperatur hat keinen Einfluss auf den Leiterwiderstand", "Der Leiterwiderstand wird kleiner"],
-        "correct": [0] },
+        "correct": [0] 
+	},
 ],
 
 
@@ -431,7 +433,6 @@ const questions = {
         ],
         "correct": [3]
     },
-
     {
         "type": "textWithImage",
         "question": "Welche Geräte werden verwendet, um Spannungen zu messen ?",
@@ -439,7 +440,8 @@ const questions = {
         "answers": ["Voltmeter", "Strommesser", "Amperemeter", "Spannungsmesser"],
         "correct": [0, 3]
     },
-        "type": "textWithImage",
+       
+    {	 "type": "textWithImage",
         "question": "Welche Eigenschaften beschreiben eine Gleichspannung ?",
         "image": "Bilder Elektrotechnik 6/bild7.jpg",
         "answers": ["Gleichbleibende Polarität", "Variable Frequenz", "Konstante Höhe", "Wechselnde Stromrichtung"],
@@ -472,7 +474,7 @@ const questions = {
         "image": "Bilder Querbeet/bild5.jpg",
         "answers": ["Wandelt mechanische in elektrische Energie um", "Wandelt elektrische in mechanische Energie um", "Erzeugt Wechselspannung", "Erzeugt Gleichspannung"],
         "correct": [0, 2]
-    }
+    },
 ],
 
 
@@ -558,7 +560,7 @@ const questions = {
             "Die Reduktion der Spannung"
         ],
         correct: [0]
-    }
+    },
 ],
 
 "Elektrotechnik 8":  [
@@ -645,7 +647,7 @@ const questions = {
         image: "Bilder Querbeet/bild5.jpg",
         answers: ["Richtig", "Falsch"],
         correct: [0]
-    }
+    },
 ],
 
 "Elektrotechnik 9":  [
@@ -726,7 +728,7 @@ const questions = {
         "image": "Bilder Querbeet/bild1.jpg",
         "answers": [".. gibt's kein Strom", "... bleibt der Olaf gern at home"],
         "correct": [0]
-    }
+    },
 ],
 
 "Stromgefahr 1": [
@@ -806,7 +808,7 @@ const questions = {
         "image": "Bilder Stromgefahr 1/bild4a.jpg",
         "answers": ["Bei SK 3 muss ein PE angeschlossen werden", "SK 3 besitzt eine doppelte oder verstärkte Isolierung", "Für SK 3 gilt eine maximale Betriebsspannung von 50 V AC", "Für SK 3 gilt eine maximale Betriebsspannung von 120 V DC"],
         "correct": [2, 3]
-    }
+    },
 ],
 
 "Stromgefahr 2": [
@@ -849,7 +851,8 @@ const questions = {
         "image": "Bilder Stromgefahr 2/bild2a.jpg",
         "answers": ["RCD", "Schmelzsicherung", "LS-Schalter", "FI"],
         "correct": [0, 3]
-    },    {
+    },    
+    {
         "type": "textWithImage",
         "question": "Woran ist ein RCD äußerlich vom Weiten gut zu erkennen ?",
         "image": "Bilder Stromgefahr 2/bild4.jpg",
@@ -897,7 +900,7 @@ const questions = {
         "image": "Bilder Elektrotechnik 7/bild2.jpg",
         "answers": ["Richtig", "Falsch"],
         "correct": [0]
-    }
+    },
 ],
 
 
@@ -1062,7 +1065,7 @@ const questions = {
             "Verstärkte Isolierung"
         ],
         "correct": [1]
-    }
+    },
 ],
 
 
@@ -1255,7 +1258,7 @@ const questions = {
         "image": "Bilder Schutzmaßnahmen 2/bild7.jpg",
         "answers": ["Richtig", "Falsch"],
         "correct": [0]
-    }
+    },
 ],
 
 
@@ -1308,7 +1311,7 @@ const questions = {
         image: "Bilder Elektrotechnik 9/bild2.jpg",
         answers: ["Es liegt generell kein Kurzschluss vor", "Es liegt ein Erdschluss im Elektrofön vor", "Es liegt ein Erdschluss in der Waschmaschine vor"],
         correct: [0, 2]
-    }
+    },
 ],
 
 
@@ -1428,7 +1431,7 @@ const questions = {
         "image": "Bilder Querbeet/bild5.jpg",
         "answers": ["DGUV Vorschrift 3", "DIN VDE 0100-100", "DIN VDE 0701", "DIN VDE 0105-100"],
         "correct": [0, 3]
-    }
+    },
 ],
 
 
@@ -1522,7 +1525,7 @@ const questions = {
         "image": "Bilder Schutzmaßnahmen 2/bild7.jpg",
         "answers": ["Defibrillatoren sind auch durch Laien bedienbar", "Während einer Körperdurchströmung darf die Person nicht mit bloßen Händen angefasst werden", "Bei Niederspannung ist anfassen mit bloßen Händen möglich"],
         "correct": [2, 3]
-    }
+    },
 ],
 
 
@@ -1610,7 +1613,7 @@ const questions = {
         "image": "Bilder Querbeet/bild5.jpg",
         "answers": ["Ja", "Nein"],
         "correct": [1]
-    }
+    },
 
 ],
 
@@ -1719,7 +1722,7 @@ const questions = {
         "image": "Bilder Sonstiges/bild4.jpg",
         "answers": ["Schalten verboten", "Einschalten verboten", "Nicht betätigen", "Nicht schalten"],
         "correct": [0]
-    }
+    },
 ],
 
 
