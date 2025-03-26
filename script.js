@@ -1388,7 +1388,7 @@ const questions = {
         "question": "Wer darf Arbeiten unter Spannung (AuS) gemäß DGUV Vorschrift 3 durchführen ?",
         "image": "Bilder Unfallverhütung/bild1.jpg",
         "answers": ["Jeder Mitarbeiter", "Elektrofachkräfte mit spezieller AuS-Unterweisung", "Der Arbeitgeber"],
-        "correct": [2]
+        "correct": [1]
     },
     {
         "type": "textWithImage",
