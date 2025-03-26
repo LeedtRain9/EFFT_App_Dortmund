@@ -1,6 +1,5 @@
 const questions = {
 
-
 "Elektrotechnik 1":[
     {
         type: "textWithImage",
@@ -233,26 +232,12 @@ const questions = {
         answers: ["Wirkungsgrad", "Wirtschaftsgrad", "Windungsgrad", "Wellengrad"],
         correct: [0]
     },
-    {
-        type: "textWithImage",
-        question: "Welche zwei Widerstandsarten gibt es neben dem Wirkwiderstand im Wechselstromkreis noch ?",
-        image: "Bilder Elektrotechnik 3/bild3.jpg",
-        answers: ["Warmwiderstand", "Blindwiderstand", "Scheinwiderstand", "Reibwiderstand"],
-        correct: [1, 2]
-    },
 {
         type: "textWithImage",
         question: "Welche Aussage zum Wirkungsgrad z.B. eines Drehstrommotors ist richtig ?",
         image: "Bilder Elektrotechnik 3/bild2.jpg",        
         answers: ["Er ist immer 1", "Er ist kleiner 1", "Er kann sogar großer 1 sein"],
         correct: [1]
-    },
-    {
-        type: "textWithImage",
-        question: "Welche zwei Leistungsarten gibt es neben der Wirkleistung im Wechselstromkreis noch ?",
-        image: "Bilder Elektrotechnik 3/bild4.jpg",
-        answers: ["Blindleistung", "Nulleistung", "Scheinleistung", "Kaltleistung"],
-        correct: [0, 2]
     },
     {
         type: "textWithImage",
@@ -274,62 +259,6 @@ const questions = {
 "Elektrotechnik 4": [
    
 
- {
-        type: "textWithImage",
-        question: "Welche zwei Bauteile verursachen eine Verschiebung zwischen Strom und Spannung im Wechselstromkreis ?",
-        image: "Bilder Querbeet/bild5.jpg",       
-        answers: ["Widerstand R", "Kondensator C", "Potentiometer R", "Spule L"],
-        correct: [1, 3]
-    },
-    {
-        type: "textWithImage",
-        question: "Wie wird eine Spule/Wicklung allgemein noch bezeichnet ?",
-        image: "Bilder Elektrotechnik 4/bild1.jpg",
-        answers: ["Kapazität C", "Ladung Q", "Induktivität L", "Permitivität µ"],
-        correct: [2]
-    },
-    {
-        type: "textWithImage",
-        question: "Wie wird ein Kondensator/Ladungsspeicher allgemein noch bezeichnet ?",
-        image: "Bilder Elektrotechnik 4/bild2.jpg",
-        answers: ["Kapazität C", "Ladung Q", "Induktivität L", "Permittivität µ"],
-        correct: [0]
-    },
-    {
-        type: "textWithImage",
-        question: "In welcher Einheit wird die Kapazität C angegeben ?",
-        image: "Bilder Querbeet/bild5.jpg",        
-        answers: ["H", "Vs", "F", "As"],
-        correct: [2]
-    },
-         {
-  	"type": "textWithImage",
-  	"question": "Welches Bauteil blockiert Gleichstrom, lässt aber Wechselstrom passieren?",
-  	"image": "Bilder Querbeet/bild5.jpg",
-  	"answers": ["Widerstand", "Kondensator", "Diode", "Spule"],
-  	"correct":  [1]
-    },
-{
-  "type": "textWithImage",
-  "question": "Was passiert mit der Gesamtkapazität C, wenn zwei Kondensatoren C1 und C2 in Reihe geschaltet werden?",
-  "image": "Bilder Querbeet/bild5.jpg",
-  "answers": ["Sie vergrößtert sich", "Sie verringert sich", "Sie bleibt gleich", "Sie wird null"],
-  "correct":  [1]
-},
-{
-  "type": "textWithImage",
-  "question": "Was passiert mit der Gesamtkapazität C, wenn zwei Kondensatoren C1 und C2 parallel geschaltet werden?",
-  "image": "Bilder Querbeet/bild5.jpg",
-  "answers": ["Sie verringert sich", "Sie vergrößert sich", "Sie bleibt gleich", "Sie wird null"],
-  "correct":  [1]
-},
-    {
-        type: "textWithImage",
-        question: "In welcher Einheit wird die Induktivität L angegeben ?",
-        image: "Bilder Querbeet/bild5.jpg",        
-        answers: ["H", "Vs", "F", "As"],
-        correct: [0]
-    },
     {
         type: "textWithImage",
         question: "Wie muß ein Strommessgerät im Stromkreis eingebaut werden ?",
@@ -502,25 +431,7 @@ const questions = {
         ],
         "correct": [3]
     },
-    {
-        "type": "textWithImage",
-        "question": "Welche Aussage ist richtig ?",
-        "image": "Bilder Querbeet/bild2.jpg",
-        "answers": [
-            "Der Innenwiderstand eines Multimeters ist im V-Bereich kleiner, als im A-Bereich.",
-            "Der Innenwiderstand eines Multimeters ist im V- und A-Bereich unterschiedlich.",
-            "Der Innenwiderstand eines Multimeters ist im V-Bereich größer, als im A-Bereich.",
-            "Der Innenwiderstand eines Multimeters ist im V- und A-Bereich gleich."
-        ],
-        "correct": [1, 2]
-    },
-    {
-        "type": "textWithImage",
-        "question": "Wie groß ist der Unterschied zwischen Spitzen- und Effektivwert einer sinusförmigen Wechselspannung ?",
-        "image": "Bilder Elektrotechnik 6/bild2.jpg",
-        "answers": ["√3", "√2", "√4", "√5"],
-        "correct": [1]
-    },
+
     {
         "type": "textWithImage",
         "question": "Welche Geräte werden verwendet, um Spannungen zu messen ?",
@@ -528,32 +439,11 @@ const questions = {
         "answers": ["Voltmeter", "Strommesser", "Amperemeter", "Spannungsmesser"],
         "correct": [0, 3]
     },
-    {
-        "type": "image",
-        "question": "Welche der folgenden Komponenten können als Gleichspannungsquelle dienen ? Klicken Sie auf das entsprechende Bild",
-        "images": ["Bilder Elektrotechnik 6/bild3.jpg", "Bilder Elektrotechnik 6/bild4.jpg", "Bilder Elektrotechnik 6/bild5.jpg"],
-        "correct": [0, 1]
-    },
-    {
         "type": "textWithImage",
         "question": "Welche Eigenschaften beschreiben eine Gleichspannung ?",
         "image": "Bilder Elektrotechnik 6/bild7.jpg",
         "answers": ["Gleichbleibende Polarität", "Variable Frequenz", "Konstante Höhe", "Wechselnde Stromrichtung"],
         "correct": [0, 2]
-    },
-    {
-        "type": "textWithImage",
-        "question": "Der Spannungsteiler kann verwendet werden, um eine geringere Spannung aus einer höheren Spannung zur Verfügung zu stellen.",
-        "image": "Bilder Elektrotechnik 6/bild8.jpg",
-        "answers": ["Richtig", "Falsch"],
-        "correct": [0]
-    },
-    {
-        "type": "textWithImage",
-        "question": "Was ändert sich periodisch bei einer Wechselspannung ?",
-        "image": "Bilder Elektrotechnik 6/bild9.jpg",
-        "answers": ["Amplitude", "Phase", "Frequenz", "Polarität"],
-        "correct": [0, 3]
     },
     {
         "type": "textWithImage",
@@ -635,13 +525,6 @@ const questions = {
         image: "Bilder Querbeet/bild5.jpg",
         answers: ["800 V", "400 V", "600 V", "1,5 kV"],
         correct: [3]
-    },
-    {
-        type: "textWithImage",
-        question: "Drehstrom wird zur Versorgung von leistungsstarken Maschinen verwendet.",
-        image: "Bilder Elektrotechnik 7/bild2.jpg",
-        answers: ["Richtig", "Falsch"],
-        correct: [0]
     },
     {
         type: "textWithImage",
@@ -766,13 +649,7 @@ const questions = {
 ],
 
 "Elektrotechnik 9":  [
-    {
-        type: "textWithImage",
-        question: "Wie werden Doppelsteckdosen in einem Stromkreises verschaltet ?",
-        image: "Bilder Elektrotechnik 9/bild1.jpg",
-        answers: ["In Reihenschaltung", "In Parallelschaltung", "In Serienschaltung", "In Einzelschaltung"],
-        correct: [1]
-    },
+
     {
         type: "textWithImage",
         question: "In einer Reihenschaltung führt der Ausfall eines Gerätes zum Ausfall aller anderen Geräte in der Schaltung.",
@@ -792,13 +669,6 @@ const questions = {
         "question": "Eine Reihenschaltung von Teilwiderständen entspricht der Verlängerung der Wegstrecke (Länge). Daher verringert sich der Gesamtwiderstand.",
         "image": "Bilder Elektrotechnik 5/bild1.jpg",
         "answers": ["Richtig", "Falsch"],
-        "correct": [1]
-    },
-    {
-        "type": "textWithImage",
-        "question": "Welches Material leitet den Strom am besten ?",
-        "image": "Bilder Elektrotechnik 5/bild4.jpg",
-        "answers": ["Aluminium", "Silber", "Kupfer", "Gold"],
         "correct": [1]
     },
     {
@@ -915,13 +785,6 @@ const questions = {
         "image": "Bilder Querbeet/bild5.jpg",
         "answers": ["2", "4", "3", "5"],
         "correct": [2]
-    },
-    {
-        "type": "textWithImage",
-        "question": "Schutzklasse 0 ist die am häufigsten vorkommende Schutzklasse",
-        "image": "Bilder Querbeet/bild5.jpg",
-        "answers": ["Stimmt.", "Stimmt nicht. Außerdem nicht mehr zulässig in Deutschland"],
-        "correct": [1]
     },
     {
         "type": "textWithImage",
@@ -1062,13 +925,6 @@ const questions = {
     },
     {
         "type": "textWithImage",
-        "question": "Was bedeutet die Abkürzung LS-Schalter ?",
-        "image": "Bilder Schutzmaßnahmen 1/bild1.jpg",
-        "answers": ["Leitungssicherung", "Leistungsschalter", "Leitungsschutz-Schalter", "Lasersicherung"],
-        "correct": [2]
-    },
-    {
-        "type": "textWithImage",
         "question": "Ab welcher Höhe löst ein LS-Schalter vom Typ B bei Kurzschluss aus ?",
         "image": "Bilder Schutzmaßnahmen 1/bild2.jpg",
         "answers": ["Beim 3-fachen Nennstrom der Sicherung", "Beim 5-fachen Nennstrom der Sicherung", "Beim 7-fachen Nennstrom der Sicherung", "Beim 10-fachen Nennstrom der Sicherung"],
@@ -1080,13 +936,6 @@ const questions = {
         "image": "Bilder Querbeet/bild4.jpg",
         "answers": ["Es liegt ein Kurzschluss vor", "Der Stromkreis ist Überlastet und der thermische Leitungsschutz löst aus", "Der Wasserkocher hat einen Kurzschluss"],
         "correct": [1]
-    },
-    {
-        "type": "textWithImage",
-        "question": "Schützt ein Leitungsschutzschalter vor Überlast und Kurzschluss ?",
-        "image": "Bilder Querbeet/bild5.jpg",
-        "answers": ["Ja", "Nein"],
-        "correct": [0]
     },
     {
         "type": "textWithImage",
@@ -1150,13 +999,6 @@ const questions = {
     },
     {
         "type": "textWithImage",
-        "question": "Funktioniert der FI auch eindeutig bei 'Klassischer Nullung' ?",
-        "image": "Bilder Querbeet/bild5.jpg",
-        "answers": ["Ja", "Nein"],
-        "correct": [1]
-    },
-    {
-        "type": "textWithImage",
         "question": "Welcher Strom fließt betriebsmäßig über den PEN-Leiter ?",
         "image": "Bilder Querbeet/bild5.jpg",
         "answers": ["Der Rückstrom", "Rück- als auch Fehlerstrom", "Fehlerstrom"],
@@ -1180,27 +1022,6 @@ const questions = {
             "Ist in Neuinstallationen Pflicht"
         ],
         "correct": [0, 2, 3]
-    },
-    {
-        "type": "textWithImage",
-        "question": "Ein Fehlerstrom-Schutzschalter (RCD) erkennt Kurzschlüsse.",
-        "image": "Bilder Schutzmaßnahmen 2/bild7.jpg",
-        "answers": ["Ja", "Nein"],
-        "correct": [1]
-    },
-    {
-        "type": "textWithImage",
-        "question": "Ein Fehlerstrom-Schutzschalter (RCD) erkennt Erdschlüsse.",
-        "image": "Bilder Schutzmaßnahmen 2/bild7.jpg",
-        "answers": ["Ja", "Nein"],
-        "correct": [0]
-    },
-    {
-        "type": "textWithImage",
-        "question": "Ein Fehlerstrom-Schutzschalter (RCD) bietet Schutz vor Kurzschluss.",
-        "image": "Bilder Schutzmaßnahmen 2/bild7.jpg",
-        "answers": ["Falsch", "Richtig"],
-        "correct": [0]
     },
     {
         "type": "textWithImage",
@@ -1255,13 +1076,6 @@ const questions = {
     },
     {
         "type": "textWithImage",
-        "question": "Was charakterisiert Schutzklasse 3 ?",
-        "image": "Bilder Schutzmaßnahmen 3/bild3.jpg",
-        "answers": ["Verwendung von Metallschirmen", "Maximal 50 V AC oder 120 V DC", "Gehäuse aus Kunststoff", "Verstärkte Isolierung"],
-        "correct": [1]
-    },
-    {
-        "type": "textWithImage",
         "question": "Welche Auswahlmöglichkeit ist ein typisches Beispiel für Schutzklasse 1 ?",
         "image": "Bilder Querbeet/bild5.jpg",
         "answers": ["Gehäuse einer Handbohrmaschine", "Kunststoffabdeckung einer Steckdose", "Metallschirm einer Lampe", "Gehäuse eines Drehstrommotors"],
@@ -1290,13 +1104,6 @@ const questions = {
     },
     {
         "type": "textWithImage",
-        "question": "Welche Schutzklasse gilt für den Radiator ?",
-        "image": "Bilder Schutzmaßnahmen 2/bild6.jpg",
-        "answers": ["Schutzklasse 1", "Schutzklasse 2", "Schutzklasse 3", "Schutzklasse 4"],
-        "correct": [0]
-    },
-    {
-        "type": "textWithImage",
         "question": "Welche Beispiele gehören zur Schutzklasse 1 ?",
         "image": "Bilder Querbeet/bild5.jpg",
         "answers": ["Metallschirm einer Lampe", "Gehäuse eines Drehstrommotors", "Elektroherd", "Abzweigdose"],
@@ -1311,25 +1118,11 @@ const questions = {
     },
     {
         "type": "textWithImage",
-        "question": "Sind 'Kabeltrommeln' (Leitungsroller) mit metallischen Rollen noch erlaubt ?",
-        "image": "Bilder Querbeet/bild5.jpg",
-        "answers": ["Nein", "Ja"],
-        "correct": [0]
-    },
-    {
-        "type": "textWithImage",
         "question": "In Schutzklasse 1 muss der Schutzleiter (PE) angeschlossen werden ?",
         "image": "Bilder Schutzmaßnahmen 2/bild7.jpg",
         "answers": ["Ja", "Nein"],
         "correct": [0]
     },
-    {
-        "type": "textWithImage",
-        "question": "Bei Anschlussleitungen wie z.B. H07RN kann ich denn PE abkneifen, wenn eine Handbohrmaschine vorliegt",
-        "image": "Bilder Schutzmaßnahmen 2/bild7.jpg",
-        "answers": ["Ja", "Nein"],
-        "correct": [1]
-    }
 ],
 
 "Schutzmaßnahmen 4": [
@@ -1353,13 +1146,6 @@ const questions = {
         "image": "Bilder Querbeet/bild5.jpg",
         "answers": ["Schutz gegen Überlast", "Schutz gegen Spannungsschwankungen", "Schutz gegen direktes Berühren", "Schutz gegen elektromagnetische Felder"],
         "correct": [2]
-    },
-    {
-        "type": "textWithImage",
-        "question": "Was wird als Fehlerschutz bezeichnet ?",
-        "image": "Bilder Querbeet/bild5.jpg",
-        "answers": ["Schutz gegen Überspannung", "Schutz gegen indirektes Berühren", "Schutz gegen Kurzschluss", "Schutz gegen Überlast"],
-        "correct": [1]
     },
     {
         "type": "textWithImage",
@@ -1391,32 +1177,11 @@ const questions = {
     },
     {
         "type": "textWithImage",
-        "question": "Welche der folgenden Maßnahmen gehören zum Fehlerschutz ?",
-        "image": "Bilder Querbeet/bild5.jpg",
-        "answers": ["Sicherungen", "Nichtleitende Umhüllungen", "Verstärkte Isolierung", "Schutz durch Abstand"],
-        "correct": [0, 2]
-    },
-    {
-        "type": "textWithImage",
-        "question": "Basisschutz ist der Schutz gegen direktes Berühren",
-        "image": "Bilder Schutzmaßnahmen 2/bild7.jpg",
-        "answers": ["Ja", "Nein"],
-        "correct": [0]
-    },
-    {
-        "type": "textWithImage",
         "question": "Der Metallrahmen einer SchuKo-Steckdose steht immer unter Spannung",
         "image": "Bilder Querbeet/bild5.jpg",
         "answers": ["Richtig", "Falsch"],
         "correct": [1]
     },
-    {
-        "type": "textWithImage",
-        "question": "Fehlerschutz ist der Schutz gegen indirektes Berühren",
-        "image": "Bilder Schutzmaßnahmen 2/bild7.jpg",
-        "answers": ["Ja", "Nein"],
-        "correct": [0]
-    }
 ],
 
 
@@ -1434,20 +1199,6 @@ const questions = {
         "image": "Bilder Schutzmaßnahmen 5/bild4a.jpg",
         "answers": ["IT-Netz", "TT-Netz", "TNC-Netz"],
         "correct": [2]
-    },
-    {
-        "type": "textWithImage",
-        "question": "Verstärkte Isolierung ist ein Beispiel für den Fehlerschutz.",
-        "image": "Bilder Schutzmaßnahmen 2/bild7.jpg",
-        "answers": ["Richtig", "Falsch"],
-        "correct": [0]
-    },
-    {
-        "type": "textWithImage",
-        "question": "Fehlerstromschutzschalter sind für den Fehlerschutz im Fehlerfall zuständig.",
-        "image": "Bilder Schutzmaßnahmen 2/bild7.jpg",
-        "answers": ["Richtig", "Falsch"],
-        "correct": [0]
     },
     {
         "type": "textWithImage",
@@ -1518,18 +1269,6 @@ const questions = {
     },
     {
         "type": "textWithImage",
-        "question": "Wofür steht die Abkürzung TT-Netz ?",
-        "image": "Bilder Schutzmaßnahmen 6/bild1.jpg",
-        "answers": [
-            "Terre-Terre Netz",
-            "Tension-Tension Netz",
-            "Transformer-Transformer Netz",
-            "Telecommunication-Television Netz"
-        ],
-        "correct": [0]
-    },
-    {
-        "type": "textWithImage",
         "question": "Ist klassische Nullung (TN-C) in Neuinstallationen noch erlaubt ?",
         "image": "Bilder Schutzmaßnahmen 5/bild3a.jpg",
         "answers": ["Ja", "Nein"],
@@ -1541,34 +1280,6 @@ const questions = {
         "image": "Bilder Schutzmaßnahmen 2/bild7.jpg",
         "answers": ["Ja", "Nein"],
         "correct": [1]
-    },
-    {
-        "type": "textWithImage",
-        "question": "Wofür steht die Abkürzung IT-Netz ?",
-        "image": "Bilder Querbeet/bild5.jpg",
-        "answers": ["Insulated-Terre Netz", "Isolé-Terre Netz", "Independent-Terre Netz", "Internal-Tension Netz"],
-        "correct": [1]
-    },
-    {
-        "type": "textWithImage",
-        "question": "Warum wird der PEN-Leiter in PE und N getrennt ?",
-        "image": "Bilder Schutzmaßnahmen 6/bild2.jpg",
-        "answers": ["Um die Verwendung von FI-Schutzschaltern (RCDs) zu ermöglichen.", "Um den Stromfluss zu erhöhen.", "Um Platz in der Verteilerdose zu sparen.", "Um die Leitungskosten zu reduzieren."],
-        "correct": [0]
-    },
-    {
-        "type": "textWithImage",
-        "question": "Wie viele Fehler müssen eintreten, damit die Schutzeinrichtung im IT-Netz auslöst ?",
-        "image": "Bilder Querbeet/bild5.jpg",
-        "answers": ["Mindestens ein Fehler", "Mindestens zwei Fehler"],
-        "correct": [1]
-    },
-    {
-        "type": "textWithImage",
-        "question": "Wo kommt das IT-Netz zum Einsatz ?",
-        "image": "Bilder Querbeet/bild5.jpg",
-        "answers": ["In OP's von Krankenhäusern", "In der Petro-Chemie", "In Mehrfamilienhäusern"],
-        "correct": [0, 1]
     },
     {
         type: "textWithImage",
@@ -1625,13 +1336,6 @@ const questions = {
     },
     {
         "type": "textWithImage",
-        "question": "Welche VDE Norm thematisiert das Prüfen ortsveränderlicher elektrischer Arbeitsmittel ?.",
-        "image": "Bilder Querbeet/bild5.jpg",
-        "answers": ["DIN VDE 0701-0702", "DIN VDE 0701", "DIN VDE 0702"],
-        "correct": [1, 2]
-    },
-    {
-        "type": "textWithImage",
         "question": "Ein Isolationswiderstand von weniger als 1 MΩ ist bei elektrischen Arbeitsmitteln zulässig.",
         "image": "Bilder Schutzmaßnahmen 2/bild7.jpg",
         "answers": ["Richtig", "Falsch"],
@@ -1665,27 +1369,6 @@ const questions = {
         "answers": ["Sichtprüfung", "Isolationswiderstandsmessung", "Schutzleiterwiderstandsmessung", "Funktionsprüfung"],
         "correct": [0, 1, 3]
     },
-    {
-        "type": "textWithImage",
-        "question": "Welche Merkmale zeichnen Geräte der Schutzklasse 3 aus ?",
-        "image": "Bilder Prüfung/bild3.jpg",
-        "answers": ["Betrieb mit Kleinspannung (SELV)", "Benötigt einen Schutzleiter", "Besitzt einen Sicherheitstransformator", "Nutzung in feuchten Umgebungen ohne Gefahr"],
-        "correct": [0, 2]
-    },
-    {
-        "type": "textWithImage",
-        "question": "Betriebsmittel der Schutzklasse 3 dürfen nur mit Schutzkleinspannung betrieben werden.",
-        "image": "Bilder Schutzmaßnahmen 2/bild7.jpg",
-        "answers": ["Richtig", "Falsch"],
-        "correct": [0]
-    },
-    {
-        "type": "textWithImage",
-        "question": "SELV sorgt dafür, dass auch bei vorhersehbaren Fehlerzuständen keine gefährliche Berührungsspannung auftreten kann.",
-        "image": "Bilder Schutzmaßnahmen 2/bild7.jpg",
-        "answers": ["Richtig", "Falsch"],
-        "correct": [0]
-    }
 ],
 
 
@@ -1727,38 +1410,10 @@ const questions = {
     },
     {
         "type": "textWithImage",
-        "question": "Welche Schritte sind gemäß DIN VDE 0105-100 vor der Durchführung von Arbeiten unter Spannung notwendig ?",
-        "image": "Bilder Unfallverhütung/bild4.jpg",
-        "answers": ["Erstellen einer Gefährdungsbeurteilung", "Überprüfen der PSA", "Informieren der zuständigen Aufsichtsbehörde", "Prüfung des Arbeitsbereichs und Geräte auf Sicherheit"],
-        "correct": [0, 1, 3]
-    },
-    {
-        "type": "textWithImage",
-        "question": "\"Arbeiten unter Spannung\" sind nur bei Hochspannungsanlagen erforderlich.",
-        "image": "Bilder Schutzmaßnahmen 2/bild7.jpg",
-        "answers": ["Richtig", "Falsch"],
-        "correct": [1]
-    },
-    {
-        "type": "textWithImage",
-        "question": "Darf jede Elektrofachkraft Arbeiten unter Spannung ausführen ?",
-        "image": "Bilder Schutzmaßnahmen 2/bild7.jpg",
-        "answers": ["Ja", "Nein"],
-        "correct": [1]
-    },
-    {
-        "type": "textWithImage",
         "question": "Welche Maßnahme von Unternehmerseite klärt eigentlich den oft unklaren Zustand, ob es sich um eine Arbeit unter Spannung handelt oder nicht ?",
         "image": "Bilder Querbeet/bild5.jpg",
         "answers": ["Eine saubere Gefährdungsbeurteilung", "Fachlicher Rat, auch von außerhalb", "Chat GPT", "Google"],
         "correct": [0, 1]
-    },
-    {
-        "type": "textWithImage",
-        "question": "Müssen Unfälle, egal welcher Art, dokumentiert werden ?",
-        "image": "Bilder Querbeet/bild5.jpg",
-        "answers": ["Ja", "Nein"],
-        "correct": [0]
     },
     {
         "type": "textWithImage",
@@ -1835,7 +1490,7 @@ const questions = {
     },
     {
         "type": "textWithImage",
-        "question": "Was sind vermutlich die treibenden Fehler, dass Ereignisse wie Stromunfälle überhaupt geschejen  ?",
+        "question": "Was sind vermutlich die treibenden Fehler, dass Ereignisse wie Stromunfälle überhaupt geschehen  ?",
         "image": "Bilder Querbeet/bild5.jpg",
         "answers": ["Mangelnde Unterweisung", "Fehlende Praxiskenntnisse", "Zeitdruck", "Gleichgültigkeit"],
         "correct": [0, 1, 2]
@@ -1927,13 +1582,6 @@ const questions = {
         "image": "Bilder Verantwortung/bild3.jpg",
         "answers": ["Alle elektrotechnisch unterwiesenen Personen", "Nur neue Mitarbeiter", "Nur Führungskräfte", "Alle Mitarbeiter mit Zugang zu elektrischen Anlagen"],
         "correct": [0, 3]
-    },
-    {
-        "type": "textWithImage",
-        "question": "Jede Elektrofachkraft darf eigenständig Sicherheitsanweisungen ändern",
-        "image": "Bilder Schutzmaßnahmen 2/bild7.jpg",
-        "answers": ["Richtig", "Falsch"],
-        "correct": [1]
     },
     {
         "type": "textWithImage",
@@ -2073,7 +1721,6 @@ const questions = {
         "correct": [0]
     }
 ],
-
 
 
 "Messtechnik": [
@@ -2397,24 +2044,17 @@ const questions = {
     },
     {
         "type": "textWithImage",
-        "question": "Welche Schutzklassen gelten aktuell für elektrische Betriebsmittel ?",
-        "image": "Bilder Querbeet/bild4.jpg",
-        "answers": ["Schutzklassen 0, 1 und 2", "Schutzklassen A, B und C", "Schutzklassen 1, 2 und 3", "Schutzklassen 1, 2 und 4"],
-        "correct": [2]
-    },
-    {
-        "type": "textWithImage",
-        "question": "Welche Schutzklasse liegt grundsätzlich bei Betriebsmittel mit Schukosteckern vor ?",
-        "image": "Bilder Betriebsmittel/bild8.jpg",
-        "answers": ["Schutzklasse 2", "Schutzklasse 0", "Schutzklasse 3", "Schutzklasse 1"],
-        "correct": [3]
-    },
-    {
-        "type": "textWithImage",
         "question": "Was bedeutet das 'J' in der Bezeichnung: NYM-J 3x1,5<sup>2</sup> ?",
         "image": "Bilder Betriebsmittel/bild9.jpg",
         "answers": ["Es liegt ein Schutzleiter vor", "Es liegt kein PE vor", "Es liegt kein Schutzleiter vor", "Es liegt ein PE vor"],
         "correct": [0, 3]
+    },
+    {
+        "type": "textWithImage",
+        "question": "Was bedeutet das 'O' in der Bezeichnung: NYM-O 3x2,5<sup>2</sup> ?",
+        "image": "Bilder Betriebsmittel/bild9.jpg",
+        "answers": ["Es liegt ein Schutzleiter vor", "Es liegt kein PE vor", "Es liegt kein Schutzleiter vor", "Es liegt ein PE vor"],
+        "correct": [1]
     },
     {
         "type": "textWithImage",
@@ -2425,24 +2065,10 @@ const questions = {
     },
     {
         "type": "textWithImage",
-        "question": "Ist das NYM ein Kabel oder eine Leitung ?",
-        "image": "Bilder Querbeet/bild5.jpg",
-        "answers": ["Eine Leitung", "Ein Kabel", "weder noch", "Wenn es im Außenbereich liegt, ein Kabel, sonst eine Leitung"],
-        "correct": [0]
-    },
-    {
-        "type": "textWithImage",
         "question": "Was ist ein Schütz ?",
         "image": "Bilder Betriebsmittel/bild10.jpg",
         "answers": ["Eine Schutzeinrichtung", "Ein Transformator", "Ein elektromechanischer Schalter"],
         "correct": [2]
-    },
-    {
-        "type": "textWithImage",
-        "question": "Ist das NYY eine Leitung oder ein Kabel ?",
-        "image": "Bilder Querbeet/bild5.jpg",
-        "answers": ["Eine Leitung", "Ein Kabel", "weder noch", "Wenn es im Innenbereich liegt, ein Kabel, sonst eine Leitung"],
-        "correct": [1]
     },
     {
         "type": "textWithImage",
@@ -2467,13 +2093,6 @@ const questions = {
         "image": "Bilder Betriebsmittel/bild11.jpg",
         "answers": ["ON", "NO", "OFF", "NC"],
         "correct": [1]
-    },
-    {
-        "type": "textWithImage",
-        "question": "Wie lautet die englische Bezeichnung für einen Wechslerkontakt ?",
-        "image": "Bilder Betriebsmittel/bild31.jpg",
-        "answers": ["ON", "NO", "SPDT", "NC"],
-        "correct": [2]
     },
     {
         "type": "textWithImage",
@@ -2600,13 +2219,6 @@ const questions = {
     },
     {
         "type": "textWithImage",
-        "question": "Welche Aussage zum Drehstromgenerator ist richtig ?",
-        "image": "Bilder Querbeet/bild5.jpg",
-        "answers": ["Der Generator wandelt mechanische- in elektrische Arbeit um", "Der Generator wandelt mechanische- in chemische Arbeit um", "Der Generator wandelt mechanische- in elektrische Arbeit um"],
-        "correct": [0]
-    },
-    {
-        "type": "textWithImage",
         "question": "Ist dieser Motor in Dreieck- oder Stern geschaltet ?",
         "image": "Bilder Betriebsmittel/bild21.jpg",
         "answers": ["In Stern", "In Dreieck"],
@@ -2676,13 +2288,6 @@ const questions = {
         "question": "Wie nennt man das schaltungstechnische Konzept der beiden Taster S1 und S2 ?",
         "image": "Bilder Betriebsmittel/bild24.jpg",
         "answers": ["Ausschaltverzögerung", "Schützverriegelung", "Tasterverriegelung"],
-        "correct": [2]
-    },
-    {
-        "type": "textWithImage",
-        "question": "Was passiert, wenn man ein DC-Schütz versehentlich an AC betreibt ?",
-        "image": "Bilder Querbeet/bild5.jpg",
-        "answers": ["Das Schütz würde nicht anziehen", "Das Schütz 'flattert'", "Die Spule erwärmt sich und das Schütz geht kaputt"],
         "correct": [2]
     },
     {
@@ -2843,13 +2448,6 @@ const questions = {
     },
     {
         "type": "textWithImage",
-        "question": "Es liegt ein Ausschnitt einer Unterverteilung (UV) eines Gewerbebetriebes vor. Macht der C16 A-Sicherungsautomat Sinn ?",
-        "image": "Bilder Schaltungstechnik/bild13.jpg",
-        "answers": ["Nein, laut VDE 0100 sind nur B-Automaten zulässig", "Nein, dem Querschnitt nach zu urteilen, muss ein C20 A-Automat installiert werden", "Ja, durchaus, da induktive- oder kapazitive Lasten höhere Einschaltströme besitzen, bei der ein B-Automat auslösen könnte"],
-        "correct": [2]
-    },
-    {
-        "type": "textWithImage",
         "question": "Um welche Leiterart handelt es sich im folgendem Bild ?",
         "image": "Bilder Schaltungstechnik/bild14.jpg",
         "answers": ["PEN-Leiter", "PE-Leiter", "PELV-Leiter", "N-Leiter"],
@@ -2883,221 +2481,10 @@ const questions = {
         "answers": ["Selbstprogrammierbare Steuerung", "Verbindungsprogrammierbare Steuerung", "Speicherprogrammierbare Steuerung"],
         "correct": [2]
     },
-    {
-        "type": "textWithImage",
-        "question": "Wie bezeichnet man Eingänge allgemein noch ?",
-        "image": "Bilder Schaltungstechnik/bild17.jpg",
-        "answers": ["Donatoren", "Sensoren", "Akzeptoren"],
-        "correct": [1]
-    },
-    {
-        "type": "textWithImage",
-        "question": "Wie bezeichnet man Ausgänge allgemein noch ?",
-        "image": "Bilder Schaltungstechnik/bild17.jpg",
-        "answers": ["Aktoren", "Resonatoren", "Transistoren"],
-        "correct": [0]
-    },
-
-],
-
-"Steuerungstechnik 1": [
-
-    {
-        "type": "textWithImage",
-        "question": "Wie werden Schutzeinrichtungen wie LS-Schalter, Stopp-Taster, NOT-AUS-Einrichtungen usw. verdrahtet/programmiert ?",
-        "image": "Bilder Steuerungstechnik/bild1.jpg",
-        "answers": ["In Reihe zueinander", "Parallel zueinander"],
-        "correct": [0]
-    },
-    {
-        "type": "textWithImage",
-        "question": "Wie nennt man folgende Grundfunktion in der SPS ?",
-        "image": "Bilder Steuerungstechnik/bild2.jpg",
-        "answers": ["Negator", "UND-Gatter", "ODER-Gatter"],
-        "correct": [1]
-    },
-    {
-        "type": "textWithImage",
-        "question": "Welche Struktur entspricht so einer ' &-Funktion ' ?",
-        "image": "Bilder Steuerungstechnik/bild3.jpg",
-        "answers": ["Einer gemischten Verschaltung", "Einer Parallelschaltung", "Einer Reihenschaltung"],
-        "correct": [2]
-    },
-    {
-        "type": "textWithImage",
-        "question": "Wie nennt man folgende Grundfunktion in der SPS ?",
-        "image": "Bilder Steuerungstechnik/bild4.jpg",
-        "answers": ["Negator", "UND-Gatter", "ODER-Gatter"],
-        "correct": [2]
-    },
-    {
-        "type": "textWithImage",
-        "question": "Welche Struktur entspricht so einer '>=1-Funktion' ?",
-        "image": "Bilder Steuerungstechnik/bild5.jpg",
-        "answers": ["Einer gemischten Verschaltung", "Einer Parallelschaltung", "Einer Reihenschaltung"],
-        "correct": [1]
-    },
-    {
-        "type": "textWithImage",
-        "question": "Wenn bereits eine einzige Bedingung in einer ' >=1-Funktion ' nicht erfüllt ist, dann ...",
-        "image": "Bilder Querbeet/bild5.jpg",
-        "answers": ["geht gar nix mehr", "läuft die Sache durchaus weiter"],
-        "correct": [1]
-    },
-    {
-        "type": "textWithImage",
-        "question": "Wenn bereits eine einzige Bedingung in einer '&-Funktion' nicht erfüllt ist, dann ...",
-        "image": "Bilder Querbeet/bild5.jpg",
-        "answers": ["geht gar nix mehr", "läuft die Sache durchaus weiter"],
-        "correct": [0]
-    },
-    {
-        "type": "textWithImage",
-        "question": "Folgende Abbildung zeigt einen 'MCB' (Motorschutzschalter). Was charakterisiert die gelbe Markierung ?",
-        "image": "Bilder Steuerungstechnik/bild6.jpg",
-        "answers": ["Den Kurzschlussschutz mittels Spule", "Den Überlastfall mittels Bi-Metall-Kontakten"],
-        "correct": [1]
-    },
-    {
-        "type": "textWithImage",
-        "question": "Folgende Abbildung zeigt einen 'MCB' (Motorschutzschalter). Was charakterisiert die grüne Markierung ?",
-        "image": "Bilder Steuerungstechnik/bild7.jpg",
-        "answers": ["Den Kurzschlussschutz mittels Spule", "Den Überlastfall mittels Bi-Metall-Kontakten"],
-        "correct": [0]
-    },
-    {
-        "type": "textWithImage",
-        "question": "Welche Aussage bezüglich des 'MCB's' ist falsch ?",
-        "image": "Bilder Steuerungstechnik/bild8.jpg",
-        "answers": ["Es reicht bereits eine Fehlerart aus, und der MCB löst aus", "Es müssen beide Fehlerarten eintreten, damit der MCB auslöst"],
-        "correct": [1]
-    },
-    {
-        "type": "textWithImage",
-        "question": "Welche Aussage zu den Schutzfunktionen eines MCB's ist richtig ?",
-        "image": "Bilder Querbeet/bild5.jpg",
-        "answers": ["Die beiden Schutzfunktionen liegen im Betriebsmittel in Reihe vor", "Die beiden Schutzfunktionen liegen im Betriebsmittel parallel vor"],
-        "correct": [0]
-    },
-    {
-        "type": "textWithImage",
-        "question": "Welcher Fehler liegt hier vor ?",
-        "image": "Bilder Steuerungstechnik/bild9.jpg",
-        "answers": ["Der Motor läuft in beiden Fällen nur links herum", "Beim Einschalten gibt es einen Phasenschluss", "Der Motor läuft in beiden Fällen nur rechts herum"],
-        "correct": [2]
-    },
-
-],
-
-"Elektronik": [
-
-  {
-    type: "textWithImage",
-    question: "Wie heißt dieses elektronische Bauteil ?",
-    image: "Bilder Elektronik/bild1.jpg",
-    answers: ["Kondensator", "Widerstand", "Diode", "Spule"],
-    correct: [2]
-  },
-  {
-    type: "textWithImage",
-    question: "Welches Bauteil wird hier dargestellt?",
-     image: "Bilder Elektronik/bild2.jpg",
-    answers: ["Spule", "Widerstand", "Kondensator", "Diode"],
-    correct: [0]
-  },
-  {
-    type: "textWithImage",
-    question: "Welche Funktion hat dieses Bauteil in der Schaltung ?",
-    image: "Bilder Elektronik/bild3.jpg",
-    answers: [
-      "Es reduziert die Spannung für die LED",
-      "Es verstärkt das Signal",
-      "Es speichert elektrische Energie",
-      "Es blockiert Gleichspannung"
-    ],
-    correct: [0]
-  },
-  {
-    type: "textWithImage",
-    question: "Wie wird ein Schaltkreis mit einer Diode beeinflusst ?",
-    image: "Bilder Elektronik/bild4.jpg",
-    answers: [
-      "Der Strom fließt in beide Richtungen",
-      "Der Strom wird verstärkt",
-      "Der Strom kann nur in eine Richtung fließen",
-      "Die Spannung wird erhöht"
-    ],
-    correct: [2]
-  },
-  {
-    type: "textWithImage",
-    question: "Welches Bauteil ist hier zu sehen ?",
-    image: "Bilder Elektronik/bild5.jpg",
-    answers: ["Widerstand", "ELKO", "Spule", "Diode"],
-    correct: [1]
-  },
-  {
-    type: "textWithImage",
-    question: "Wie verhält sich ein Kondensator im Gleichstromkreis im Einschaltmoment ?",
-    image: "Bilder Querbeet/bild5.jpg",
-    answers: ["Er wirkt wie ein Kurzschluss", "Er wirkt wie eine Unterbrechnung", "Er verhält sich wie ein Widerstand R"],
-    correct: [0]
-  },
-  {
-    type: "textWithImage",
-    question: "Wie verhält sich ein Kondensator im Gleichstromkreis im Ausschaltmoment ?",
-    image: "Bilder Querbeet/bild5.jpg",
-    answers: ["Er wirkt wie eine Unterbrechnung", "Er wirkt wie ein Kurzschluss", "Er verhält sich wie ein Widerstand R"],
-    correct: [0]
-  },
-  {
-    type: "textWithImage",
-    question: "Was passiert, wenn ein Leuchtmittel (oder LED) in Reihe zu einem Kondensator im DC-Kreis geschaltet wird ?",
-    image: "Bilder Querbeet/bild5.jpg",
-    answers: ["Nichts. Die LED bleibt dunkel", "Die LED ist zunächst dunkel und beginnt allmählich zu leuchten", "Die LED hat zunächst maximale Helligkeit und wird allmählich dunkel"],
-    correct: [2]
-  },
-  {
-    type: "textWithImage",
-    question: "Was passiert, wenn ein Leuchtmittel (oder LED) parallel zu einem Kondensator im DC-Kreis geschaltet wird ?",
-    image: "Bilder Querbeet/bild5.jpg",
-    answers: ["Nichts. Die LED bleibt hell", "Die LED ist zunächst dunkel und beginnt allmählich zu leuchten", "Die LED hat zunächst maximale Helligkeit und wird allmählich dunkel"],
-    correct: [1]
-  },
- {
-    type: "textWithImage",
-    question: "Wie verhält sich eine Spule im Gleichstromkreis im Einschaltmoment ?",
-    image: "Bilder Querbeet/bild5.jpg",
-    answers: ["Sie wirkt wie ein Kurzschluss", "Sie wirkt wie eine Unterbrechnung", "Er verhält sich wie ein Kondensator C"],
-    correct: [1]
-  },
- {
-    type: "textWithImage",
-    question: "Wie verhält sich eine Spule im Gleichstromkreis im Ausschaltmoment ?",
-    image: "Bilder Querbeet/bild5.jpg",
-    answers: ["Sie wirkt wie ein Kurzschluss", "Sie wirkt wie eine Unterbrechnung", "Er verhält sich wie ein Kondensator C"],
-    correct: [0]
-  },
-  {
-    type: "textWithImage",
-    question: "Was passiert, wenn ein Leuchtmittel (oder LED) in Reihe zu einer Spule im DC-Kreis geschaltet wird ?",
-    image: "Bilder Querbeet/bild5.jpg",
-    answers: ["Nichts. Die LED bleibt dunkel", "Die LED ist zunächst dunkel und beginnt allmählich zu leuchten", "Die LED hat zunächst maximale Helligkeit und wird allmählich dunkel"],
-    correct: [1]
-  },
-  {
-    type: "textWithImage",
-    question: "Was passiert, wenn ein Leuchtmittel (oder LED) parallel zu Spule im DC-Kreis geschaltet wird ?",
-    image: "Bilder Querbeet/bild5.jpg",
-    answers: ["Nichts. Die LED bleibt hell", "Die LED ist zunächst dunkel und beginnt allmählich zu leuchten", "Die LED hat zunächst maximale Helligkeit und wird allmählich dunkel"],
-    correct: [2]
-  },
-
 
 ]
 
 };
-
 
 const categoryNames = Object.keys(questions);
 
