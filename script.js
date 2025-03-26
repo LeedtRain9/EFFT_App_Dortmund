@@ -1439,6 +1439,27 @@ const questions = {
         "answers": ["DGUV Vorschrift 3", "DIN VDE 0100-100", "DIN VDE 0701", "DIN VDE 0105-100"],
         "correct": [0, 3]
     },
+	    {
+        "type": "textWithImage",
+        "question": "Wie lautet die erste der fünf Sicherheitsregeln, um im spannungsfreien Zustand zu arbeiten ?",
+        "image": "Bilder Querbeet/bild4.jpg",
+        "answers": ["Gegen Wiedereinschalten sichern", "Spannungsfreiheit feststellen", "Freischalten", "Erden und kurzschließen"],
+        "correct": [2]
+    },
+	    {
+        "type": "textWithImage",
+        "question": "Ist die Umsetzung der UVV freiwillig ?",
+        "image": "Bilder Querbeet/bild5.jpg",
+        "answers": ["EuK", "EuP", "KuE"],
+        "correct": [0]
+    },
+    {
+        "type": "textWithImage",
+        "question": "Womit wird die Regel 'Erden und Kurzschließen' umgesetzt ?",
+        "image": "Bilder Querbeet/bild4.jpg",
+        "answers": ["EuK", "EuP", "KuE"],
+        "correct": [0]
+    },
 ],
 
 
