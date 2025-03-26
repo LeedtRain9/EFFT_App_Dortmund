@@ -1387,7 +1387,7 @@ const questions = {
         "type": "textWithImage",
         "question": "Wer darf Arbeiten unter Spannung (AuS) gemäß DGUV Vorschrift 3 durchführen ?",
         "image": "Bilder Unfallverhütung/bild1.jpg",
-        "answers": ["Jeder Mitarbeiter", "Elektrotechnisch unterwiesene Personen", "Elektrofachkräfte mit spezieller AuS-Unterweisung", "Der Arbeitgeber"],
+        "answers": ["Jeder Mitarbeiter", "Elektrofachkräfte mit spezieller AuS-Unterweisung", "Der Arbeitgeber"],
         "correct": [2]
     },
     {
@@ -1415,8 +1415,8 @@ const questions = {
         "type": "textWithImage",
         "question": "Welche Maßnahme von Unternehmerseite klärt eigentlich den oft unklaren Zustand, ob es sich um eine Arbeit unter Spannung handelt oder nicht ?",
         "image": "Bilder Querbeet/bild5.jpg",
-        "answers": ["Eine saubere Gefährdungsbeurteilung", "Fachlicher Rat, auch von außerhalb", "Chat GPT", "Google"],
-        "correct": [0, 1]
+        "answers": ["Eine saubere Gefährdungsbeurteilung", "Chat GPT", "Google"],
+        "correct": [0]
     },
     {
         "type": "textWithImage",
@@ -1424,6 +1424,13 @@ const questions = {
         "image": "Bilder Querbeet/bild4.jpg",
         "answers": ["Gegen Wiedereinschalten sichern", "Spannungsfreiheit feststellen", "Freischalten", "Erden und kurzschließen"],
         "correct": [2]
+    },
+	    {
+        "type": "textWithImage",
+        "question": "Welche der fünf Regeln ist grundsätzlich die Wichtigste, um Fehler bei der Umsetzung feststellen zu können ?",
+        "image": "Bilder Querbeet/bild4.jpg",
+        "answers": ["Gegen Wiedereinschalten sichern", "Spannungsfreiheit feststellen", "Freischalten", "Erden und kurzschließen"],
+        "correct": [1]
     },
     {
         "type": "textWithImage",
