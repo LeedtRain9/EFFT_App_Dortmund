@@ -1785,7 +1785,7 @@ const questions = {
     },
     {
         "type": "textWithImage",
-        "question": "Was passiert, wenn ich bei einem Multimeter DC statt AC einstelle und an einer aktiven Steckdose messe ?",
+        "question": "Was passiert, wenn ich bei einem Multimeter VDC statt V AC einstelle und an einer aktiven Steckdose messe ?",
         "image": "Bilder Querbeet/bild5.jpg",
         "answers": ["Das Gerät zeigt 0 V an", "Das Gerät schwankt zwischen - 230 V und + 230 V", "Es zeigt einen Wert um 50 V an", "Das Messgerät gibt einen Piepton aus"],
         "correct": [0]
@@ -1843,7 +1843,7 @@ const questions = {
         "type": "textWithImage",
         "question": "Welche Drehfeldrichtung muss netzseitig zur Verfügung gestellt werden ?",
         "image": "Bilder Querbeet/bild5.jpg",
-        "answers": ["Rechtsdrehfeld", "Linksdrehfeld", "Entweder Links- oder Rechtsdrehfeld", "mindestens ein 5-poliges Netz mit Rechtsdrehfeld"],
+        "answers": ["Rechtsdrehfeld", "Linksdrehfeld", "Entweder Links- oder Rechtsdrehfeld"],
         "correct": [0]
     },
     {
